@@ -68,19 +68,21 @@ $(function () {
 
   /* Morris.js Charts */
   // Accomplishment chart
-  var area = new Morris.Area({
+  var area = new Morris.Line({
     element   : 'accomplishment-chart',
     resize    : true,
     data      : [
       { y: '2015-01', item1: 0, item2: 0 },
       { y: '2016-12', item1: 18, item2: 5 },
-      { y: '2017-12', item1: 48, item2: 20 },
-      { y: '2018-09', item1: 54, item2: 23 },
+      { y: '2017-12', item1: 48, item2: 19 },
+      { y: '2018-03', item1: 54, item2: 24 },
+      { y: '2018-06', item1: 60, item2: 31 },
+      { y: '2018-09', item1: 65, item2: 34 },
     ],
     xkey      : 'y',
     ykeys     : ['item1', 'item2'],
     labels    : ['Overall Target', 'Overall Accomplishment'],
-    lineColors: ['#a0d0e0', '#3c8dbc'],
+    lineColors: ['#3c8dbc', '#ff0000'],
     hideHover : 'auto'
   });
   var line = new Morris.Line({
@@ -93,7 +95,7 @@ $(function () {
     xkey             : 'y',
     ykeys            : ['item1', 'item2'],
     labels           : ['Annual Accomplishment', 'Annual Target'],
-    lineColors       : ['#a0d0e0', '#3c8dbc'],
+    lineColors       : ['#ff0000', '#3c8dbc'],
     lineWidth        : 2,
     hideHover        : 'auto',
     gridTextColor    : '#fff',
