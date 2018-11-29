@@ -86,7 +86,7 @@ $(function () {
     hideHover : 'auto'
   });
   var line = new Morris.Line({
-    element          : 'line-chart',
+    element          : 'septLine-chart',
     resize           : true,
     data             : [
       { y: '2018-01', item1: 0, item2: 0 },
