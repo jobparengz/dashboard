@@ -93,7 +93,7 @@ $(function () {
     resize           : true,
     data             : [
       { y: '2018-01', item1: 0, item2: 0 },
-      { y: '2018-09', item1: 6683, item2: 11545 }
+      { y: '2018-09', item1: 8543, item2: 11545 }
     ],
     xkey             : 'y',
     ykeys            : ['item1', 'item2'],
