@@ -69,7 +69,7 @@ $(function () {
   /* Morris.js Charts */
   // Accomplishment chart
   var area = new Morris.Line({
-    element   : 'novAccomplishment-chart',
+    element   : '112018Accomplishment-chart',
     resize    : true,
     data      : [
       { y: '2015-01', item1: 0, item2: 0 },
@@ -88,7 +88,7 @@ $(function () {
     hideHover : 'auto'
   });
   var line = new Morris.Line({
-    element          : 'novLine-chart',
+    element          : '112018Line-chart',
     resize           : true,
     data             : [
       { y: '2018-01', item1: 0, item2: 0 },
