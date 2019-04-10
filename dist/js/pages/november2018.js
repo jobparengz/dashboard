@@ -69,7 +69,7 @@ $(function () {
   /* Morris.js Charts */
   // Accomplishment chart
   var area = new Morris.Line({
-    element   : 'septAccomplishment-chart',
+    element   : '112018Accomplishment-chart',
     resize    : true,
     data      : [
       { y: '2015-01', item1: 0, item2: 0 },
@@ -77,7 +77,9 @@ $(function () {
       { y: '2017-12', item1: 48, item2: 19 },
       { y: '2018-03', item1: 54, item2: 24 },
       { y: '2018-06', item1: 60, item2: 31 },
-      { y: '2018-09', item1: 65, item2: 35 }
+      { y: '2018-09', item1: 65, item2: 35 },
+      { y: '2018-10', item1: 67, item2: 37 },
+      { y: '2018-11', item1: 69, item2: 37 }
     ],
     xkey      : 'y',
     ykeys     : ['item1', 'item2'],
@@ -86,7 +88,7 @@ $(function () {
     hideHover : 'auto'
   });
   var line = new Morris.Line({
-    element          : 'septLine-chart',
+    element          : '112018Line-chart',
     resize           : true,
     data             : [
       { y: '2018-01', item1: 0, item2: 0 },

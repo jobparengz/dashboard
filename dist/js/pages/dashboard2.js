@@ -2,32 +2,6 @@ $(function () {
 
   'use strict';
 
-/* 
- * CRM
- */
-  var october-sum-crm-infCanvas = $('#october-sum-crm-inf')
-  var october-r5-crm-infCanvas = $('october-r5-crm-inf')
-  var october-r8-crm-infCanvas = $('october-r8-crm-inf')
-  var october-r13-crm-infCanvas = $('october-r13-crm-inf')
-  var october-armm-crm-infCanvas = $('october-armm-crm-inf')
-  var october-sum-crm-goodsCanvas = $('october-sum-crm-goods')
-  var october-r5-crm-goodsCanvas  = $('october-r5-crm-goods')
-  var october-r8-crm-goodsCanvas = $('october-r8-crm-goods')
-  var october-r13-crm-goodsCanvas = $('october-r13-crm-goods')
-  var october-armm-crm-goodsCanvas = $('october-armm-crm-goods')
-/*
- * LD
- */
-  var october-sum-ld-inf
-  var october-r5-ld-inf
-  var october-r8-ld-inf
-  var october-r13-ld-inf
-  var october-armm-ld-inf
-  var october-sum-ld-goods
-  var october-r5-ld-goods
-  var october-r8-ld-goods
-  var october-r13-ld-goods
-  var october-armm-ld-goods
 
   /* ChartJS
    * -------
@@ -52,7 +26,7 @@ $(function () {
         strokeColor         : 'rgb(210, 214, 222)',
         pointColor          : 'rgb(210, 214, 222)',
         pointStrokeColor    : '#c1c7d1',
-        pointHighlightFill  : '#fff',
+        pointHighlightFill  : '#fff', 
         pointHighlightStroke: 'rgb(220,220,220)',
         data                : [65, 59, 80, 81, 56, 55, 40]
       },
