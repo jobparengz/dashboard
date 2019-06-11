@@ -82,7 +82,8 @@ $(function () {
       { y: '2018-11', item1: 69, item2: 37 },
       { y: '2018-12', item1: 71, item2: 40 },
       { y: '2019-01', item1: 73, item2: 41 },
-      { y: '2019-02', item1: 75, item2: 47 }
+      { y: '2019-04', item1: 75, item2: 47 },
+      { y: '2019-06', item1: 77, item2: 55 }
     ],
     xkey      : 'y',
     ykeys     : ['item1', 'item2'],
